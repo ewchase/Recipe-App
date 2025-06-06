@@ -9,6 +9,12 @@ import {
 } from '@mui/material';
 import Carousel from './Carousel';
 
+/*import { BrowserRouter } from 'react-router-dom';
+
+<BrowserRouter basename="/projects/javascript/recipe-app">
+  <App />
+</BrowserRouter>*/
+
 function App() {
   const [recipes, setRecipes] = useState([]);
   const [form, setForm] = useState({

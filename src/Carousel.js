@@ -1,4 +1,4 @@
-import React, { useEffect, useState} from 'react';
+//import React, { useEffect, useState} from 'react';
 import MultiCarousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
