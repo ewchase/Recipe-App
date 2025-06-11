@@ -9,12 +9,6 @@ import {
 } from '@mui/material';
 import Carousel from './Carousel';
 
-/*import { BrowserRouter } from 'react-router-dom';
-
-<BrowserRouter basename="/projects/javascript/recipe-app">
-  <App />
-</BrowserRouter>*/
-
 function App() {
   const [recipes, setRecipes] = useState([]);
   const [form, setForm] = useState({
@@ -220,7 +214,7 @@ function App() {
             multiline
             rows={3}
           />
-          <Button variant="contained" color= "warning" component="primary" sx={{ mt: 1 }}>
+          <Button variant="contained" color= "warning" component="label" sx={{ mt: 1 }}>
             Upload Image
             <input
               type="file"

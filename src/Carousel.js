@@ -65,11 +65,11 @@ const Carousel = () => {
                     slidesToSlide={2}
                     swipeable
                 >
-                    <div><img src="/images/Banana-Coconut-Cookies.jpg" alt="Girl in a jacket" width="325" height="250" /> </div>
-                    <div><img src="/images/chickpea-spinach-curry.jpg" alt="Girl in a jacket" width="325" height="250" /> </div>
-                    <div><img src="/images/banana-donuts.jpg" alt="Girl in a jacket" width="325" height="250" /> </div>
-                    <div><img src="/images/chocolate_cupcakes.jpg" alt="Girl in a jacket" width="325" height="250" /> </div>
-                     
+                    <div><img src={`${process.env.PUBLIC_URL}/images/Banana-Coconut-Cookies.jpg`} alt="Banana Coconut Cookies" width="325" height="250" /> </div>
+                    <div><img src={`${process.env.PUBLIC_URL}/images/Chickpea-Spinach-Curry.jpg`} alt="Chickpea Spinach Curry" width="325" height="250" /> </div>
+                    <div><img src={`${process.env.PUBLIC_URL}/images/banana-donuts.jpg`} alt="Banana Donuts" width="325" height="250" /> </div>
+                    <div><img src={`${process.env.PUBLIC_URL}/images/Chocolate_cupcakes.jpg`} alt="Chocolate Cupcakes" width="325" height="250" /> </div>
+                    
                 </MultiCarousel>
             </div>
         );
